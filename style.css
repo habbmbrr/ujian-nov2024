@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	height: 1200px;
+}
+.container h2 {
+	font-size: 1.6rem;
+}
+.container h3 {
+	font-size: 1.4rem;
+}
+.container p {
+	font-size: 1.2rem;
+}
+.container .head {
+	justify-content: center;
+	margin: 2rem 3rem 2rem 3rem;
+}
+.container .head h2 {
+	justify-content: center;
+	text-align: center;
+	font-weight: bold;
+	margin: 1rem;
+}
+.container .head .text {
+	display: flex;
+	justify-content: space-around;
+	columns: auto 8rem;
+}
+.container .head .text p {
+	height: auto;
+	border-radius: 10px;
+	background-color: gray;
+	margin: 1rem 1.5rem 1rem 1.5rem;
+	padding: 1.5rem;
+	text-align: start;
+	color: white;
+}
+
+.container .body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	columns: auto 8rem;
+	margin: 3 0rem 3rem 0rem;
+	background-color: gray;
+}
+.container .body .card {
+	width: 650px;
+	height: 550px;
+	display: flex;
+	border-radius: 10px;
+	background-color: black;
+	margin: 2rem 0.5rem 2rem 2rem;
+}
+.container .body .col {
+	width: 800px;
+	margin: 2rem 0.5rem 2rem 2rem;
+}
+.container .body .col h2 {
+	font-weight: bold;
+	text-align: center;
+	margin: 1rem 0 1rem 1rem;
+	justify-content: center;
+}
+.container .body .col .card2 {
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	background-color: white;
+	margin-top: 1.5rem;
+	padding: 0.7rem;
+	justify-content: star;
+}
+
+.container .footer {
+	display: flex;
+	justify-content: center;
+	margin: 3rem 3rem 2rem 3rem;
+	padding-top: 1rem;
+	position: relative;
+	left: 20px;
+	right: 30px;
+}
+.container .footer .text2 {
+	position: absolute;
+	display: flex;
+	columns: auto 8rem;
+	justify-content: space-around;
+	background-color: gray;
+	border-radius: 10px;
+	color: white;
+}
+.container .footer .text2 .card3 {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+.container .footer .text2 h2,
+.container .footer .text2 p {
+	margin: 1rem 0 1rem 0;
+}
+
+.container .footer button {
+	background-color: black;
+	margin: 3rem 3rem 0 3rem;
+	height: 3rem;
+	width: 7.5rem;
+	border-radius: 50px;
+}
+.container .footer button a {
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: white;
+	
+}
+ 
+footer {
+	background-color: gray;
+    text-align: center;
+    padding: 0.9rem 0.3rem;
+    margin-top: 5rem;
+}
+footer .socials {
+    padding: 0.6rem 0;
+}
+footer .socials a {
+    color: #fff;
+    margin: 1rem;
+	text-decoration: none;
+}
+footer .socials a:hover,
+footer .link a:hover {
+    color: #010101;
+}
+footer .link {
+    margin-bottom: 1rem;
+}
+footer .link a {
+    color: #fff;
+    padding: 0.7rem 1rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+footer .credit {
+    font-size: 0.9rem;
+}
+footer .credit a {
+    color: #010101;
+    font-weight: 700;
+}
