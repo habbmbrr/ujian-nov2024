@@ -47,13 +47,33 @@ nav .img img{
 	border-radius: 50%;
 }
 .how {
-    min-height: 50vh;
-    color: blue;
+	color: blue;
     display: flex;
-	flex-direction: row;
+	flex-direction:row;
     margin-top: 6rem;  
 	justify-content: center; 
+	text-align: center;
 }
+.how .text {
+	width: 600px;
+	height: 300px;
+	margin: 3rem;
+	text-align: start;
+	align-items: center;
+	padding-top: 3rem;
+	border-radius: 20px;
+	background-color: #9a9a9a;
+}
+.how .text p,
+.how .text h1 {
+	margin: 1rem;
+	color: white;
+}
+.how .gambar img {
+	border-radius: 30px;
+	margin: 3rem;
+}
+
 
 .container {
 	height: 100vh;
