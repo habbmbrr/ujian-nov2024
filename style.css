@@ -2,26 +2,31 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	width: auto;
 }
-/* navbar */
+/* navbar musa*/
 nav {
-    background-color: rgba(1, 1, 1, 0.8);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 2rem;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+	background-color: rgba(1, 1, 1, 0.8);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 2rem;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 999;
 }
 
 .icon-nav a {
-    display: inline-block;
-    gap: 2rem;
-    list-style: none;
-    padding: 1rem 2rem;
-    margin: 0rem 1rem;
+	display: inline-block;
+	gap: 2rem;
+	list-style: none;
+	padding: 1rem 2rem;
+	margin: 0rem 1rem;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.3rem;
@@ -42,18 +47,19 @@ nav {
 	transform: scaleX(1.1);
 }
 
-nav .img img{
-    width: 70px;
+nav .img img {
+	width: 70px;
 	border-radius: 50%;
 	margin: 0.5rem;
 	border: white 2px solid;
 }
 .how {
+	height: auto;
 	color: blue;
-    display: flex;
-	flex-direction:row;
-    margin-top: 6rem;  
-	justify-content: center; 
+	display: flex;
+	flex-direction: row;
+	margin: 6rem 2rem 0 2rem;
+	justify-content: center;
 	text-align: center;
 }
 .how .text {
@@ -75,7 +81,116 @@ nav .img img{
 	border-radius: 30px;
 	margin: 3rem;
 }
+/* musa */
 
+/* nizar */
+.mainpertama h1 {
+	text-align: center;
+	margin-top: 3rem;
+	letter-spacing: 0.2rem;
+}
+
+.mainpertama .satu,
+.dua {
+	text-align: center;
+}
+
+.mainpertama .satu {
+	margin-top: 4rem;
+	margin-bottom: 0.5rem;
+}
+.mainkedua {
+	background-color: #9a9a9a;
+	width: auto;
+	height: 100vh;
+}
+.image1 {
+	width: 45rem;
+	margin-top: 8rem;
+	margin-left: 9rem;
+	float: left;
+}
+
+.image1 img {
+	border-radius: 45px;
+}
+
+.image1 .satu {
+	height: 25rem;
+	width: 20rem;
+}
+
+.image1 .dua {
+	height: 20rem;
+	width: 20rem;
+	margin-left: 2rem;
+}
+
+.image1 .tiga {
+	width: 28rem;
+	height: 18rem;
+	margin-top: 2rem;
+	margin-left: 6rem;
+}
+
+.content {
+	margin-right: 7rem;
+	margin-top: 5rem;
+	font-size: 1rem;
+	word-spacing: 0.5rem;
+	letter-spacing: 0.1rem;
+	padding-top: 7rem;
+}
+
+.content {
+	margin-left: 60rem;
+	width: 50rem;
+	position: relative;
+}
+
+.content .two,
+.three,
+.four {
+	margin-top: 3rem;
+	padding-left: 7rem;
+}
+
+.content .one,
+.one1,
+.two1,
+.three1,
+.four1 {
+	padding-left: 7rem;
+}
+
+.buttonhal2 {
+	margin-top: 2rem;
+	margin-left: 5rem;
+	width: 150px;
+	height: 50px;
+	background-color: black;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	padding-top: 0.9rem;
+	box-sizing: border-box;
+	margin-left: 15rem;
+	margin-top: 4rem;
+}
+.buttonhal2:hover {
+	background-color: #fff;
+}
+
+.buttonhal2 a {
+	font-size: 1.23rem;
+	color: white;
+	text-decoration: none;
+	margin-left: 2rem;
+}
+.buttonhal2 a:hover {
+	color: #010101;
+}
+/* nizar */
 
 .container {
 	height: 100vh;
