@@ -1,4 +1,3 @@
-
 /* HTML5 display-role reset for older browsers */
 /* article,aside,
 details,figcaption,
@@ -28,7 +27,6 @@ table {
 } */
 
 /* css reset */
-
 
 .containerheader {
 	text-align: center;
@@ -71,61 +69,60 @@ table {
 	padding-top: 1rem;
 }
 .image {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-radius: 20px;
-    border: black 2px solid;
-    padding: 0.5rem 2rem;
-    margin: 3rem;
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-radius: 20px;
+	border: black 2px solid;
+	padding: 0.5rem;
+	margin: 3rem;
 }
-.image img{
-    width: 90vh;
-    height: auto;
-    display: flex;
-    border-radius: 15px;
-    margin: 0 rem;
+.image img {
+	width: 90vh;
+	height: auto;
+	display: flex;
+	border-radius: 15px;
+	margin: 0 1.5rem;
 }
 
 .mainpartners {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	margin-top: 4rem;
-	width: auto    ;
+	width: auto;
 	height: 30rem;
 	background-color: #9a9a9a;
-    padding: 1rem;
+	padding: 1rem;
 }
 
 .mainpartners .image2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0 5rem;
 }
 .mainpartners h1 {
 	text-align: center;
 	font-size: 2.5rem;
-    margin: 2rem 0;
+	margin: 2rem 0;
 }
 .mainpartners .image2 img {
-    width: 150px;
-    border-radius: 50%;
-    border: white 2px solid;
-    margin-top: 2rem;
+	width: 150px;
+	border-radius: 50%;
+	border: white 2px solid;
+	margin-top: 2rem;
 }
 .mainpartners .image2 p {
-    font-size: 1.5rem;
-    font-weight: 900;
-    color: white;
-    text-align: center;
-    margin-top: 6px;
+	font-size: 1.5rem;
+	font-weight: 900;
+	color: white;
+	text-align: center;
+	margin-top: 6px;
 }
 
-
-
+/* ghani */
 .mainlatestblog {
 	margin-top: 10rem;
 	margin-bottom: 3rem;
@@ -136,148 +133,148 @@ table {
 	font-weight: bolder;
 	font-size: 2.5rem;
 }
-
-/* button {
-    margin-top: 50rem;
-    background-color: black;
-    height: 4rem;
-    width: 9rem;
-    font-size: 1.2rem;
-    border-radius: 50px;
-} */
-
-.button {
-    justify-content: space-around;
+.button1 {
+	justify-content: space-around;
 	text-align: center;
-	margin-top: 6rem;
+	margin: 2rem 0 2rem 0;
 }
 
-.button input {
-	margin-top: 50rem;
+.button1 input {
 	background-color: black;
 	color: white;
 	width: 9rem;
 	height: 3rem;
 	font-size: 1.2rem;
-	border-radius: 20px;
 }
-
 
 /* img */
 .imglatestblog {
-    /* jajal */
-    margin-top: 1px; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
-.imglatestblog1 .img1{
-    background-color: white;
-    width: 30rem;
-    height: 46rem;
-    position: absolute;
-    left: 3rem;
+.imglatestblog1,
+.imglatestblog2,
+.imglatestblog3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+.imglatestblog1 .img1 {
+	background-color: white;
+	width: 30rem;
+	height: 46rem;
+	border: #9a9a9a 3px solid;
+	border-radius: 20px;
 }
 
-.imglatestblog1 .figure{
-    text-align: center;
+.imglatestblog1 .figure {
+	text-align: center;
 }
 
 .imglatestblog1 .figure img {
-    width: 25rem;
-    height: 30rem;
-    padding: 2rem 0;
-    border-radius: 100px;
+	width: 25rem;
+	height: 30rem;
+	padding: 2rem 0;
+	border-radius: 100px;
 }
 
-.imglatestblog1 .img1 h1{
-    /* font-weight: bolder; */
-    font-size: 1.5rem;
-    margin-bottom: 1rem
+.imglatestblog1 .img1 h1 {
+	/* font-weight: bolder; */
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	text-align: center;
 }
 
 .imglatestblog1 .img1 p {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2.5rem;
 }
 
 .imglatestblog1 .img1 a {
-    text-decoration: none;
-    color: black;
-    margin-left: 1rem;
+	/* text-decoration: none; */
+	color: black;
+	padding-left: 2.5rem;
+	text-align: start;
 }
 
-
-.imglatestblog2 .img2{
-    background-color: white;
-    width: 30rem;
-    height: 46rem;
-    position: absolute;
-    left: 35rem;
+.imglatestblog2 .img2 {
+	background-color: white;
+	width: 30rem;
+	height: 46rem;
+	border: #9a9a9a 3px solid;
+	border-radius: 20px;
 }
 
-.imglatestblog2 .figure{
-    text-align: center;
+.imglatestblog2 .figure {
+	text-align: center;
 }
 
 .imglatestblog2 .figure img {
-    width: 25rem;
-    height: 30rem;
-    padding: 2rem 0;
-    border-radius: 100px;
+	width: 25rem;
+	height: 30rem;
+	padding: 2rem 0;
+	border-radius: 100px;
 }
 
-.imglatestblog2 .img2 h1{
-    /* font-weight: bolder; */
-    font-size: 1.5rem;
-    margin-bottom: 1rem
+.imglatestblog2 .img2 h1 {
+	/* font-weight: bolder; */
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	text-align: center;
 }
 
 .imglatestblog2 .img2 p {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2.5rem;
 }
 
 .imglatestblog2 .img2 a {
-    text-decoration: none;
-    color: black;
-    margin-left: 1rem;
+	/* text-decoration: none; */
+	color: black;
+	padding-left: 2.5rem;
+	text-align: start;
 }
 
-
-.imglatestblog3 .img3{
-    background-color: white;
-    width: 30rem;
-    height: 46rem;
-    position: absolute;
-    left: 67rem;
+.imglatestblog3 .img3 {
+	background-color: white;
+	width: 30rem;
+	height: 46rem;
+	border: #9a9a9a 3px solid;
+	border-radius: 20px;
 }
 
-.imglatestblog3 .figure{
-    text-align: center;
+.imglatestblog3 .figure {
+	text-align: center;
 }
 
 .imglatestblog3 .figure img {
-    width: 25rem;
-    height: 30rem;
-    padding: 2rem 0;
-    border-radius: 100px;
+	width: 25rem;
+	height: 30rem;
+	padding: 2rem 0;
+	border-radius: 100px;
 }
 
-.imglatestblog3 .img3 h1{
-    /* font-weight: bolder; */
-    font-size: 1.5rem;
-    margin-bottom: 1rem
+.imglatestblog3 .img3 h1 {
+	/* font-weight: bolder; */
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+	text-align: center;
 }
 
 .imglatestblog3 .img3 p {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 2.5rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-left: 2.5rem;
 }
 
 .imglatestblog3 .img3 a {
-    text-decoration: none;
-    color: black;
-    margin-left: 1rem;
+	/* text-decoration: none; */
+	color: black;
+	padding-left: 2.5rem;
+	text-align: start;
 }
-
